@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Prueba práctica frontend developer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+\_Este es un desafio de frontend enviado por Xepelin, hecho con Reactjs
 
-## Available Scripts
+## Comenzando 🚀
 
-In the project directory, you can run:
+\_Primero clonarlo con:
 
-### `npm start`
+```
+git clone https://github.com/rimitola8511/movie-app-redux.git
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Una vez clonado, abrir el directorio raiz y ejecutar `cd nombre-proyecto` para entrar al directorio del proyecto.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Pre-requisitos 📋
 
-### `npm test`
+Nota: `Para efectos de la práctica se eliminó del .gitignore la linea que no permitía subir al repo el archivo .env, de tal manera que al clonar el poryecto esté ya se descargue con el mismo`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+Crear un archivo .env y definir las variable REACT_APP_API_URL = https://api.themoviedb.org/3/movie y REACT_APP_URL_KEY=e08815ebb9a68b5816a9e3ae26b751e1
+```
 
-### `npm run build`
+### Instalación 🔧
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Nota: `La versión de nodejs utilizada es v14.18.2`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+\_Para iniciar el proyecto localmente se debe seguir los siguientes pasos:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+```
 
-### `npm run eject`
+_Y luego_
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Ejecutando las pruebas ⚙️
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+\_Para ejecutar las pruebas unitarias se debe ejecutar en la terminal `npm run test`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Las instrucciones mencionadas anteriormente te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-## Learn More
+## Despliegue 📦
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+\_La versión final de la aplicación se encuentra publicada en Netlify en la siguiente URL:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+https://extraordinary-chebakia-6eae22.netlify.app/
+```
 
-### Code Splitting
+## ¿Qué tecnología se utilizaron? 🧱
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Se utilizó HTML, CSS (Material UI framework) y Javascript esté último se combinó con la libreria Reactjs, axios, redux y react-testing-library con jest para los test.
 
-### Analyzing the Bundle Size
+## ¿Qué interesante tiene el código?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Se intentó seguir las mejores practicas con Reactjs, la cual nos permite ordenar nuestro código y hacer que las distintas partes de la aplicación se comuniquen entre sí, también nos ayuda a mantener unos atributos de calidad como la escalabilidad, desacoplamiento y mantenibilidad; se intento modularizar y reutilizar todo lo más posible. La idea es tener un código prolijo pero eficiente fácilmente escalable, se realizaron test unitarios de los componentes visuales, se utilizó una instacia de axios para definir una URL base y así realizar las peticiones a la API de forma optima, se añadireron PropTypes como validación de props y se utilizó la libreria readux para manejar el estado de forma global aplicando las mejores prácticas.
 
-### Making a Progressive Web App
+Se prestó atención a la accesibilidad del sitio y al diseño en general respetando el diseño provisto, el cual se optó por desarrollarlo con Material UI sin descuidar la adaptabilidad a las diferentes pantallas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⌨️ con ❤️ por [Ricardo Imitola](https://github.com/rimitola8511) 😊
